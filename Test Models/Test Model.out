@@ -1,0 +1,155 @@
+SIMAN Run Controller.
+
+0.011444444 Hours>
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Mortgage Review Analysis                                    Run execution date :11/17/2019
+Analyst: Windows User                                                Model revision date:11/17/2019
+
+Replication ended at time      : 0.011444444 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process 4.TotalCostPerEntity                    --         --         --         --          0
+Process 3.TotalCostPerEntity                    --         --         --         --          0
+Process 2.TotalCostPerEntity                    --         --         --         --          0
+Process 1.TotalCostPerEntity                    --         --         --         --          0
+Process 4.VACostPerEntity                       --         --         --         --          0
+Process 3.VACostPerEntity                       --         --         --         --          0
+Process 2.VACostPerEntity                       --         --         --         --          0
+Process 1.VACostPerEntity                       --         --         --         --          0
+Process 2.WaitCostPerEntity                     --         --         --         --          0
+Process 1.WaitCostPerEntity                     --         --         --         --          0
+Process 4.VATimePerEntity                       --         --         --         --          0
+Process 3.VATimePerEntity                       --         --         --         --          0
+Process 2.VATimePerEntity                       --         --         --         --          0
+Process 1.VATimePerEntity                       --         --         --         --          0
+Process 4.TotalTimePerEntity                    --         --         --         --          0
+Process 3.TotalTimePerEntity                    --         --         --         --          0
+Process 2.TotalTimePerEntity                    --         --         --         --          0
+Process 1.TotalTimePerEntity                    --         --         --         --          0
+Process 2.WaitTimePerEntity                     --         --         --         --          0
+Process 1.WaitTimePerEntity                     --         --         --         --          0
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Entity 1.VACost                                 --         --         --         --          0
+Entity 1.NVACost                                --         --         --         --          0
+Entity 1.WaitCost                               --         --         --         --          0
+Entity 1.TranCost                               --         --         --         --          0
+Entity 1.OtherCost                              --         --         --         --          0
+Entity 1.TotalCost                              --         --         --         --          0
+Entity 4.VATime                                 --         --         --         --          0
+Entity 4.NVATime                                --         --         --         --          0
+Entity 4.WaitTime                               --         --         --         --          0
+Entity 4.TranTime                               --         --         --         --          0
+Entity 4.OtherTime                              --         --         --         --          0
+Entity 4.TotalTime                              --         --         --         --          0
+Entity 4.VACost                                 --         --         --         --          0
+Entity 4.NVACost                                --         --         --         --          0
+Entity 4.WaitCost                               --         --         --         --          0
+Entity 4.TranCost                               --         --         --         --          0
+Entity 4.OtherCost                              --         --         --         --          0
+Entity 4.TotalCost                              --         --         --         --          0
+Process 2.Queue.WaitingTime                     --         --         --         --          0
+Process 2.Queue.WaitingCost                     --         --         --         --          0
+Process 1.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000          1    
+Process 1.Queue.WaitingCost                 .00000     (Insuf)    .00000     .00000          1    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                1.0000     (Insuf)    .00000     1.0000     1.0000    
+Entity 4.WIP                                1.0000     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+Resource 1.NumberBusy                       .75728     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .75728     (Insuf)    .00000     1.0000     1.0000    
+Mortgage Review Clerk.NumberBusy            .00000     (Insuf)    .00000     .00000     .00000    
+Mortgage Review Clerk.NumberScheduled       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Mortgage Review Clerk.Utilization           .00000     (Insuf)    .00000     .00000     .00000    
+Process 2.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+Process 1.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process 4 Number Out                        .00000    
+Process 2 Total Accum Cost                  .00000    
+Process 2 Number Out                        .00000    
+Process 2 Number In                         .00000    
+Process 3 Number In                         .00000    
+Process 1 Accum Wait Time                   .00000    
+Process 2 Total Accum Time                  .00000    
+Process 2 Accum VA Cost                     .00000    
+Process 1 Number In                         1.0000    
+Process 2 Accum Wait Time                   .00000    
+Process 4 Total Accum Time                  .00000    
+Process 3 Total Accum Time                  .00000    
+Process 1 Total Accum Time                  .00000    
+Process 3 Accum VA Cost                     .00000    
+Process 2 Accum VA Time                     .00000    
+Process 3 Accum VA Time                     .00000    
+Process 1 Accum VA Time                     .00000    
+Process 4 Number In                         1.0000    
+Process 4 Accum VA Time                     .00000    
+Process 4 Accum VA Cost                     .00000    
+Process 1 Accum VA Cost                     .00000    
+Process 1 Accum Wait Cost                   .00000    
+Process 3 Number Out                        .00000    
+Process 4 Total Accum Cost                  .00000    
+Process 3 Total Accum Cost                  .00000    
+Process 2 Accum Wait Cost                   .00000    
+Process 1 Total Accum Cost                  .00000    
+Process 1 Number Out                        .00000    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          .00000    
+Entity 4.NumberIn                           1.0000    
+Entity 4.NumberOut                          .00000    
+Resource 2.NumberSeized                     .00000    
+Resource 2.ScheduledUtilization             .00000    
+Resource 2.BusyCost                         .00000    
+Resource 2.IdleCost                         .00000    
+Resource 2.UsageCost                        .00000    
+Resource 1.NumberSeized                     1.0000    
+Resource 1.ScheduledUtilization             .75728    
+Resource 1.BusyCost                         .00000    
+Resource 1.IdleCost                         .00000    
+Resource 1.UsageCost                        .00000    
+Mortgage Review Clerk.NumberSeized          .00000    
+Mortgage Review Clerk.ScheduledUtilization  .00000    
+Mortgage Review Clerk.BusyCost              .00000    
+Mortgage Review Clerk.IdleCost              .13733    
+Mortgage Review Clerk.UsageCost             .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .13733    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .13733    
+System.TotalCost                            .13733    
+System.NumberOut                            .00000    
+
+
+Simulation run time: 0.08 minutes.
+Simulation run complete.

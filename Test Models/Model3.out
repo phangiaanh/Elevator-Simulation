@@ -1,0 +1,52 @@
+SIMAN Run Controller.
+
+1.0616098 Hours>
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :11/17/2019
+Analyst: Windows User                                                Model revision date:11/17/2019
+
+Replication ended at time      : 1.0616098 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          3    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          3    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000          3    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          3    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000          3    
+Entity 1.TotalTime                          .00000     (Insuf)    .00000     .00000          3    
+Process 1.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000          3    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     1.0000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     1.0000     .00000    
+Process 1.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           3.0000    
+Entity 1.NumberOut                          3.0000    
+Resource 1.NumberSeized                     3.0000    
+Resource 1.ScheduledUtilization             .00000    
+System.NumberOut                            3.0000    
+
+
+Simulation run time: 0.08 minutes.
+Simulation run complete.

@@ -1,0 +1,21 @@
+[RESOURCES]
+[VARIABLES]
+Dispose 6.NumberOut
+Bursting Rate.NumberOut
+Maximum Students
+Normal Condition.NumberOut True
+Normal Condition.NumberOut False
+Check empty again.NumberOut False
+Number of Students
+Current Floor
+Cabin.NumberOut
+Check empty again.NumberOut True
+State Elevator
+Bursting Condition.NumberOut True
+Bursting Condition.NumberOut False
+Morning?.NumberOut False
+Up
+Morning?.NumberOut True
+Dispose 8.NumberOut
+Any?
+Normal Rate.NumberOut
