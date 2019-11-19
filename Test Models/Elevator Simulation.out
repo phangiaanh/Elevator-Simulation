@@ -1,15 +1,15 @@
 SIMAN Run Controller.
 
-0.045277778 Hours>
+0.024666667 Hours>
                                       ARENA Simulation Results
                                    Windows User - License: STUDENT
 
                                   Summary for Replication 1 of 1
 
-Project: Unnamed Project                                             Run execution date :11/17/2019
-Analyst: Windows User                                                Model revision date:11/17/2019
+Project: Unnamed Project                                             Run execution date :11/19/2019
+Analyst: Windows User                                                Model revision date:11/19/2019
 
-Replication ended at time      : 0.045277778 Hours 
+Replication ended at time      : 0.024666667 Hours 
 Base Time Units: Hours
 
                                            TALLY VARIABLES
@@ -17,12 +17,12 @@ Base Time Units: Hours
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Elevator Cabins.VATime                          --         --         --         --          0
-Elevator Cabins.NVATime                         --         --         --         --          0
-Elevator Cabins.WaitTime                        --         --         --         --          0
-Elevator Cabins.TranTime                        --         --         --         --          0
-Elevator Cabins.OtherTime                       --         --         --         --          0
-Elevator Cabins.TotalTime                       --         --         --         --          0
+Elevator Cabins.VATime                      .00000     (Insuf)    .00000     .00000          1    
+Elevator Cabins.NVATime                     .00000     (Insuf)    .00000     .00000          1    
+Elevator Cabins.WaitTime                    .00139     (Insuf)    .00139     .00139          1    
+Elevator Cabins.TranTime                    .00000     (Insuf)    .00000     .00000          1    
+Elevator Cabins.OtherTime                   .00000     (Insuf)    .00000     .00000          1    
+Elevator Cabins.TotalTime                   .00139     (Insuf)    .00139     .00139          1    
 Students.VATime                                 --         --         --         --          0
 Students.NVATime                                --         --         --         --          0
 Students.WaitTime                               --         --         --         --          0
@@ -30,39 +30,43 @@ Students.TranTime                               --         --         --        
 Students.OtherTime                              --         --         --         --          0
 Students.TotalTime                              --         --         --         --          0
 Floor 2 Waiting Line.Queue.WaitingTime          --         --         --         --          0
+Floor 8 Waiting Line.Queue.WaitingTime          --         --         --         --          0
 Floor 4 Waiting Line Up.Queue.WaitingTime       --         --         --         --          0
 Floor 5 Waiting Line Up.Queue.WaitingTime       --         --         --         --          0
+Elevator Cabin.Queue.WaitingTime                --         --         --         --          0
 Floor 3 Waiting Line Up.Queue.WaitingTime       --         --         --         --          0
-Floor 1 Waiting Line.Queue.WaitingTime          --         --         --         --          0
-Floor 8 Waiting Line Down.Queue.WaitingTim      --         --         --         --          0
-Floor 7 Waiting Line Down.Queue.WaitingTim      --         --         --         --          0
+Floor 1 Waiting Line.Queue.WaitingTime      .00000     (Insuf)    .00000     .00000          1    
+Floor 7 Waiting Line.Queue.WaitingTime          --         --         --         --          0
 Floor 6 Waiting Line Down.Queue.WaitingTim      --         --         --         --          0
 Floor 5 Waiting Line Down.Queue.WaitingTim      --         --         --         --          0
 Floor 4 Waiting Line Down.Queue.WaitingTim      --         --         --         --          0
 Floor 3 Waiting Line Down.Queue.WaitingTim      --         --         --         --          0
-Check empty.Queue.WaitingTime                   --         --         --         --          0
+Check empty.Queue.WaitingTime               .00139     (Insuf)    .00139     .00139          1    
 Floor 6 Waiting Line Up.Queue.WaitingTime       --         --         --         --          0
+Go go go.Queue.WaitingTime                  .00000     (Insuf)    .00000     .00000          1    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Elevator Cabins.WIP                         1.0000     (Insuf)    .00000     1.0000     1.0000    
-Students.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Elevator Cabins.WIP                         .05631     (Insuf)    .00000     1.0000     .00000    
+Students.WIP                                4.0519     (Insuf)    .00000     7.0000     7.0000    
 Floor 2 Waiting Line.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
-Floor 4 Waiting Line Up.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Floor 8 Waiting Line.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
+Floor 4 Waiting Line Up.Queue.NumberInQueu  1.0164     (Insuf)    .00000     2.0000     2.0000    
 Floor 5 Waiting Line Up.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
-Floor 3 Waiting Line Up.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
-Floor 1 Waiting Line.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
-Floor 8 Waiting Line Down.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
-Floor 7 Waiting Line Down.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Elevator Cabin.Queue.NumberInQueue          .94369     (Insuf)    .00000     1.0000     1.0000    
+Floor 3 Waiting Line Up.Queue.NumberInQueu  .47826     (Insuf)    .00000     1.0000     1.0000    
+Floor 1 Waiting Line.Queue.NumberInQueue    1.6135     (Insuf)    .00000     3.0000     3.0000    
+Floor 7 Waiting Line.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
 Floor 6 Waiting Line Down.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
 Floor 5 Waiting Line Down.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
 Floor 4 Waiting Line Down.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
 Floor 3 Waiting Line Down.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
-Check empty.Queue.NumberInQueue             1.0000     (Insuf)    .00000     1.0000     1.0000    
+Check empty.Queue.NumberInQueue             .05631     (Insuf)    .00000     1.0000     .00000    
 Floor 6 Waiting Line Up.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Go go go.Queue.NumberInQueue                .00000     (Insuf)    .00000     1.0000     .00000    
 
                                              OUTPUTS
 
@@ -70,11 +74,11 @@ Identifier                                   Value
 _____________________________________________________________
 
 Elevator Cabins.NumberIn                    1.0000    
-Elevator Cabins.NumberOut                   .00000    
-Students.NumberIn                           .00000    
+Elevator Cabins.NumberOut                   1.0000    
+Students.NumberIn                           7.0000    
 Students.NumberOut                          .00000    
-System.NumberOut                            .00000    
+System.NumberOut                            1.0000    
 
 
-Simulation run time: 0.03 minutes.
+Simulation run time: 0.17 minutes.
 Simulation run complete.

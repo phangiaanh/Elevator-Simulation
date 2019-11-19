@@ -2,11 +2,21 @@
 [VARIABLES]
 Dispose 6.NumberOut
 Bursting Rate.NumberOut
+Check Empty Floor 6 Down.NumberOut True
+Check Empty Floor 5 Down.NumberOut True
+Check Empty Floor 4 Down.NumberOut True
+Check Empty Floor 3 Down.NumberOut True
 Maximum Students
+Destination Min
+Destination Max
+Button Pressed
 Normal Condition.NumberOut True
+Departure Max
 Normal Condition.NumberOut False
 Check empty again.NumberOut False
+Departure Min
 Number of Students
+Arrival Confirmed.NumberOut True
 Current Floor
 Cabin.NumberOut
 Check empty again.NumberOut True
@@ -18,4 +28,25 @@ Up
 Morning?.NumberOut True
 Dispose 8.NumberOut
 Any?
+Check Empty Floor 8.NumberOut True
+Check Empty Floor 7.NumberOut True
+Check Empty Floor 2.NumberOut True
+Check Empty Floor 1.NumberOut True
+Check Empty Floor 6 Up.NumberOut True
+Check Empty Floor 5 Up.NumberOut True
+Check Empty Floor 4 Up.NumberOut True
+Check Empty Floor 3 Up.NumberOut True
+Check Empty Floor 6 Up.NumberOut False
+Check Empty Floor 5 Up.NumberOut False
+Check Empty Floor 4 Up.NumberOut False
+Check Empty Floor 3 Up.NumberOut False
+Check Empty Floor 8.NumberOut False
+Check Empty Floor 7.NumberOut False
+Check Empty Floor 2.NumberOut False
+Check Empty Floor 1.NumberOut False
 Normal Rate.NumberOut
+Check Empty Floor 6 Down.NumberOut False
+Check Empty Floor 5 Down.NumberOut False
+Check Empty Floor 4 Down.NumberOut False
+Check Empty Floor 3 Down.NumberOut False
+Arrival Confirmed.NumberOut False
