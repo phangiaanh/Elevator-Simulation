@@ -6,17 +6,20 @@ Check Empty Floor 6 Down.NumberOut True
 Check Empty Floor 5 Down.NumberOut True
 Check Empty Floor 4 Down.NumberOut True
 Check Empty Floor 3 Down.NumberOut True
+Process 2.NumberOut
 Maximum Students
+Process 2.NumberIn
+Process 3.NumberIn
 Destination Min
 Destination Max
 Button Pressed
 Normal Condition.NumberOut True
-Departure Max
 Normal Condition.NumberOut False
 Check empty again.NumberOut False
-Departure Min
-Number of Students
-Arrival Confirmed.NumberOut True
+Dispose 9.NumberOut
+i
+Remove Cabin.NumberRemoved
+Current Floor?.NumberOut True
 Current Floor
 Cabin.NumberOut
 Check empty again.NumberOut True
@@ -26,12 +29,14 @@ Bursting Condition.NumberOut False
 Morning?.NumberOut False
 Up
 Morning?.NumberOut True
-Dispose 8.NumberOut
+Current Floor?.NumberOut False
 Any?
+Remove Cabin.MinMax
+Remove Cabin.BestIndex
 Check Empty Floor 8.NumberOut True
-Check Empty Floor 7.NumberOut True
-Check Empty Floor 2.NumberOut True
 Check Empty Floor 1.NumberOut True
+Check Empty Floor 2.NumberOut True
+Check Empty Floor 7.NumberOut True
 Check Empty Floor 6 Up.NumberOut True
 Check Empty Floor 5 Up.NumberOut True
 Check Empty Floor 4 Up.NumberOut True
@@ -41,12 +46,28 @@ Check Empty Floor 5 Up.NumberOut False
 Check Empty Floor 4 Up.NumberOut False
 Check Empty Floor 3 Up.NumberOut False
 Check Empty Floor 8.NumberOut False
-Check Empty Floor 7.NumberOut False
-Check Empty Floor 2.NumberOut False
 Check Empty Floor 1.NumberOut False
+Check Empty Floor 2.NumberOut False
+Check Empty Floor 7.NumberOut False
+Process 3.NumberOut
+Decide 38.NumberOut False
+Decide 41.NumberOut False
+Decide 39.NumberOut False
+Decide 42.NumberOut False
+Decide 43.NumberOut False
+Decide 44.NumberOut False
+Decide 45.NumberOut False
+Decide 40.NumberOut False
+Decide 38.NumberOut True
+Decide 41.NumberOut True
+Decide 39.NumberOut True
+Decide 42.NumberOut True
+Decide 43.NumberOut True
+Decide 44.NumberOut True
+Decide 45.NumberOut True
+Decide 40.NumberOut True
 Normal Rate.NumberOut
 Check Empty Floor 6 Down.NumberOut False
 Check Empty Floor 5 Down.NumberOut False
 Check Empty Floor 4 Down.NumberOut False
 Check Empty Floor 3 Down.NumberOut False
-Arrival Confirmed.NumberOut False

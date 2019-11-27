@@ -1,15 +1,15 @@
 SIMAN Run Controller.
 
-11.193015 Hours>
+19.278555 Hours>
                                       ARENA Simulation Results
                                    Windows User - License: STUDENT
 
                                   Summary for Replication 1 of 1
 
-Project: Unnamed Project                                             Run execution date :11/17/2019
-Analyst: Windows User                                                Model revision date:11/17/2019
+Project: Unnamed Project                                             Run execution date :11/26/2019
+Analyst: Windows User                                                Model revision date:11/26/2019
 
-Replication ended at time      : 11.193015 Hours 
+Replication ended at time      : 19.278555 Hours 
 Base Time Units: Hours
 
                                            TALLY VARIABLES
@@ -17,38 +17,29 @@ Base Time Units: Hours
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Entity 1.VATime                             .53360     (Insuf)    .40260     .68547         17    
-Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         17    
-Entity 1.WaitTime                           2.5549     (Insuf)    .00000     4.6664         17    
-Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         17    
-Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         17    
-Entity 1.TotalTime                          3.0885     (Insuf)    .46954     5.1481         17    
-Hold 1.Queue.WaitingTime                    1.4224     (Insuf)    .00000     3.4059         21    
-Process 2.Queue.WaitingTime                 1.2195     (Insuf)    .00000     1.8478         18    
+Entity 1.VATime                             3.0000     (Insuf)    3.0000     3.0000         15    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         15    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000         15    
+Entity 1.TranTime                           2.0000     (Insuf)    2.0000     2.0000         15    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         15    
+Entity 1.TotalTime                          5.0000     (Insuf)    5.0000     5.0000         15    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Entity 1.WIP                                6.0777     (Insuf)    .00000     8.0000     6.0000    
-Resource 1.NumberBusy                       .85843     (Insuf)    .00000     1.0000     1.0000    
-Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Resource 1.Utilization                      .85843     (Insuf)    .00000     1.0000     1.0000    
-Hold 1.Queue.NumberInQueue                  2.9759     (Insuf)    .00000     7.0000     2.0000    
-Process 2.Queue.NumberInQueue               2.2434     (Insuf)    .00000     3.0000     3.0000    
+Entity 1.WIP                                4.8808     (Insuf)    .00000     8.0000     5.0000    
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Entity 1.NumberIn                           23.000    
-Entity 1.NumberOut                          17.000    
-Resource 1.NumberSeized                     18.000    
-Resource 1.ScheduledUtilization             .85843    
-System.NumberOut                            17.000    
+Entity 1.NumberIn                           20.000    
+Entity 1.NumberOut                          15.000    
+System.NumberOut                            15.000    
 
 
-Simulation run time: 0.93 minutes.
+Simulation run time: 0.75 minutes.
 Simulation run complete.
