@@ -4,11 +4,11 @@
 
                                   Summary for Replication 1 of 1
 
-Project: Unnamed Project                                             Run execution date :11/28/2019
-Analyst: Windows User                                                Model revision date:11/28/2019
+Project: Unnamed Project                                             Run execution date :11/29/2019
+Analyst: Windows User                                                Model revision date:11/29/2019
 
-Replication ended at time      : 43200.0 Seconds 
-Base Time Units: Seconds
+Replication ended at time      : 2.7867327 Hours 
+Base Time Units: Hours
 
                                            TALLY VARIABLES
 
@@ -21,27 +21,54 @@ Elevator Cabins.WaitTime                        --         --         --        
 Elevator Cabins.TranTime                        --         --         --         --          0
 Elevator Cabins.OtherTime                       --         --         --         --          0
 Elevator Cabins.TotalTime                       --         --         --         --          0
-Students.VATime                             .00000     .00000     .00000     .00000      17568    
-Students.NVATime                            .00000     .00000     .00000     .00000      17568    
-Students.WaitTime                           8.2832     (Corr)     .00000     69.853      17568    
-Students.TranTime                           .00000     .00000     .00000     .00000      17568    
-Students.OtherTime                          .00000     .00000     .00000     .00000      17568    
-Students.TotalTime                          8.2832     (Corr)     .00000     69.853      17568    
+Elevator Cabins.VACost                          --         --         --         --          0
+Elevator Cabins.NVACost                         --         --         --         --          0
+Elevator Cabins.WaitCost                        --         --         --         --          0
+Elevator Cabins.TranCost                        --         --         --         --          0
+Elevator Cabins.OtherCost                       --         --         --         --          0
+Elevator Cabins.TotalCost                       --         --         --         --          0
+Students.VATime                             .00000     .00000     .00000     .00000       1567    
+Students.NVATime                            .00000     .00000     .00000     .00000       1567    
+Students.WaitTime                           .00261     (Corr)     .00000     .01666       1567    
+Students.TranTime                           .00000     .00000     .00000     .00000       1567    
+Students.OtherTime                          .00000     .00000     .00000     .00000       1567    
+Students.TotalTime                          .00261     (Corr)     .00000     .01666       1567    
+Students.VACost                             .00000     .00000     .00000     .00000       1567    
+Students.NVACost                            .00000     .00000     .00000     .00000       1567    
+Students.WaitCost                           .00000     .00000     .00000     .00000       1567    
+Students.TranCost                           .00000     .00000     .00000     .00000       1567    
+Students.OtherCost                          .00000     .00000     .00000     .00000       1567    
+Students.TotalCost                          .00000     .00000     .00000     .00000       1567    
 Floor 2 Waiting Line.Queue.WaitingTime          --         --         --         --          0
-Floor 8 Waiting Line.Queue.WaitingTime      22.706     1.4987     .00000     46.826        424    
-Floor 4 Waiting Line Up.Queue.WaitingTime   19.517     1.2027     .00000     46.643        380    
+Floor 2 Waiting Line.Queue.WaitingCost          --         --         --         --          0
+Floor 8 Waiting Line.Queue.WaitingTime          --         --         --         --          0
+Floor 8 Waiting Line.Queue.WaitingCost          --         --         --         --          0
+Floor 4 Waiting Line Up.Queue.WaitingTime   .00413     (Insuf)    .00000     .00863         12    
+Floor 4 Waiting Line Up.Queue.WaitingCost   .00000     (Insuf)    .00000     .00000         12    
 Floor 5 Waiting Line Up.Queue.WaitingTime       --         --         --         --          0
-Elevator Cabin.Queue.WaitingTime            13.690     .16989     6.0953     25.000       4272    
-Floor 3 Waiting Line Up.Queue.WaitingTime       --         --         --         --          0
-Floor 1 Waiting Line.Queue.WaitingTime          --         --         --         --          0
-Floor 7 Waiting Line.Queue.WaitingTime      20.722     .93935     .00000     46.348        437    
-Floor 6 Waiting Line Down.Queue.WaitingTim  20.029     .66537     .00000     47.467       2035    
+Floor 5 Waiting Line Up.Queue.WaitingCost       --         --         --         --          0
+Elevator Cabin.Queue.WaitingTime            .00298     8.3656E-05 .00176     .00556        612    
+Elevator Cabin.Queue.WaitingCost            .00000     .00000     .00000     .00000        612    
+Floor 3 Waiting Line Up.Queue.WaitingTime   .00372     (Insuf)    .00000     .01036         25    
+Floor 3 Waiting Line Up.Queue.WaitingCost   .00000     (Insuf)    .00000     .00000         25    
+Floor 1 Waiting Line.Queue.WaitingTime      .00365     3.1683E-04 .00000     .01222        492    
+Floor 1 Waiting Line.Queue.WaitingCost      .00000     .00000     .00000     .00000        492    
+Floor 7 Waiting Line.Queue.WaitingTime          --         --         --         --          0
+Floor 7 Waiting Line.Queue.WaitingCost          --         --         --         --          0
+Floor 6 Waiting Line Down.Queue.WaitingTim  .00440     (Insuf)    .00000     .01000         46    
+Floor 6 Waiting Line Down.Queue.WaitingCos  .00000     (Insuf)    .00000     .00000         46    
 Floor 5 Waiting Line Down.Queue.WaitingTim      --         --         --         --          0
-Floor 4 Waiting Line Down.Queue.WaitingTim  20.608     .94468     .00000     46.971        505    
-Floor 3 Waiting Line Down.Queue.WaitingTim      --         --         --         --          0
-Check empty.Queue.WaitingTime               11.604     (Insuf)    5.7086E-04 60.794        200    
-Floor 6 Waiting Line Up.Queue.WaitingTime   19.937     .97803     .00000     48.438        495    
-Go go go.Queue.WaitingTime                  .00000     .00000     .00000     .00000       2672    
+Floor 5 Waiting Line Down.Queue.WaitingCos      --         --         --         --          0
+Floor 4 Waiting Line Down.Queue.WaitingTim  .00334     (Insuf)    .00000     .00888         22    
+Floor 4 Waiting Line Down.Queue.WaitingCos  .00000     (Insuf)    .00000     .00000         22    
+Floor 3 Waiting Line Down.Queue.WaitingTim  .00170     (Insuf)    .00000     .00504          7    
+Floor 3 Waiting Line Down.Queue.WaitingCos  .00000     (Insuf)    .00000     .00000          7    
+Check empty.Queue.WaitingTime               .00502     (Insuf)    8.2507E-05 .02916        152    
+Check empty.Queue.WaitingCost               .00000     (Insuf)    .00000     .00000        152    
+Floor 6 Waiting Line Up.Queue.WaitingTime   .00430     (Insuf)    .00181     .01000          8    
+Floor 6 Waiting Line Up.Queue.WaitingCost   .00000     (Insuf)    .00000     .00000          8    
+Go go go.Queue.WaitingTime                  .00000     .00000     .00000     .00000        380    
+Go go go.Queue.WaitingCost                  .00000     .00000     .00000     .00000        380    
 
                                      DISCRETE-CHANGE VARIABLES
 
@@ -49,21 +76,21 @@ Identifier                                  Average   Half Width  Minimum    Max
 ___________________________________________________________________________________________________
 
 Elevator Cabins.WIP                         1.0000     (Insuf)    .00000     1.0000     1.0000    
-Students.WIP                                3.3712     .08869     .00000     13.000     4.0000    
+Students.WIP                                1.4648     (Insuf)    .00000     10.000     .00000    
 Floor 2 Waiting Line.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
-Floor 8 Waiting Line.Queue.NumberInQueue    .22286     .02446     .00000     4.0000     .00000    
-Floor 4 Waiting Line Up.Queue.NumberInQueu  .17168     .01979     .00000     4.0000     .00000    
+Floor 8 Waiting Line.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
+Floor 4 Waiting Line Up.Queue.NumberInQueu  .01779     (Insuf)    .00000     1.0000     .00000    
 Floor 5 Waiting Line Up.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
-Elevator Cabin.Queue.NumberInQueue          1.3542     .04104     .00000     11.000     4.0000    
-Floor 3 Waiting Line Up.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
-Floor 1 Waiting Line.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
-Floor 7 Waiting Line.Queue.NumberInQueue    .20962     .01948     .00000     5.0000     .00000    
-Floor 6 Waiting Line Down.Queue.NumberInQu  .94354     .03701     .00000     8.0000     .00000    
+Elevator Cabin.Queue.NumberInQueue          .65442     (Insuf)    .00000     9.0000     .00000    
+Floor 3 Waiting Line Up.Queue.NumberInQueu  .03337     (Insuf)    .00000     1.0000     .00000    
+Floor 1 Waiting Line.Queue.NumberInQueue    .64377     (Insuf)    .00000     8.0000     .00000    
+Floor 7 Waiting Line.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
+Floor 6 Waiting Line Down.Queue.NumberInQu  .07255     (Insuf)    .00000     2.0000     .00000    
 Floor 5 Waiting Line Down.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
-Floor 4 Waiting Line Down.Queue.NumberInQu  .24091     .02877     .00000     5.0000     .00000    
-Floor 3 Waiting Line Down.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
-Check empty.Queue.NumberInQueue             .05373     .00805     .00000     1.0000     .00000    
-Floor 6 Waiting Line Up.Queue.NumberInQueu  .22845     .02256     .00000     4.0000     .00000    
+Floor 4 Waiting Line Down.Queue.NumberInQu  .02635     (Insuf)    .00000     2.0000     .00000    
+Floor 3 Waiting Line Down.Queue.NumberInQu  .00428     (Insuf)    .00000     1.0000     .00000    
+Check empty.Queue.NumberInQueue             .27384     (Insuf)    .00000     1.0000     .00000    
+Floor 6 Waiting Line Up.Queue.NumberInQueu  .01234     (Insuf)    .00000     2.0000     .00000    
 Go go go.Queue.NumberInQueue                .00000     (Insuf)    .00000     1.0000     .00000    
 
                                              OUTPUTS
@@ -73,10 +100,141 @@ _____________________________________________________________
 
 Elevator Cabins.NumberIn                    1.0000    
 Elevator Cabins.NumberOut                   .00000    
-Students.NumberIn                           17572.    
-Students.NumberOut                          17568.    
-System.NumberOut                            17568.    
+Students.NumberIn                           1567.0    
+Students.NumberOut                          1567.0    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            1567.0    
 
 
-Simulation run time: 1.02 minutes.
+Simulation run time: 0.67 minutes.
+Simulation run complete.
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :11/29/2019
+Analyst: Windows User                                                Model revision date:11/29/2019
+
+Replication ended at time      : 2.7867327 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Elevator Cabins.VATime                          --         --         --         --          0
+Elevator Cabins.NVATime                         --         --         --         --          0
+Elevator Cabins.WaitTime                        --         --         --         --          0
+Elevator Cabins.TranTime                        --         --         --         --          0
+Elevator Cabins.OtherTime                       --         --         --         --          0
+Elevator Cabins.TotalTime                       --         --         --         --          0
+Elevator Cabins.VACost                          --         --         --         --          0
+Elevator Cabins.NVACost                         --         --         --         --          0
+Elevator Cabins.WaitCost                        --         --         --         --          0
+Elevator Cabins.TranCost                        --         --         --         --          0
+Elevator Cabins.OtherCost                       --         --         --         --          0
+Elevator Cabins.TotalCost                       --         --         --         --          0
+Students.VATime                             .00000     .00000     .00000     .00000       1567    
+Students.NVATime                            .00000     .00000     .00000     .00000       1567    
+Students.WaitTime                           .00261     (Corr)     .00000     .01666       1567    
+Students.TranTime                           .00000     .00000     .00000     .00000       1567    
+Students.OtherTime                          .00000     .00000     .00000     .00000       1567    
+Students.TotalTime                          .00261     (Corr)     .00000     .01666       1567    
+Students.VACost                             .00000     .00000     .00000     .00000       1567    
+Students.NVACost                            .00000     .00000     .00000     .00000       1567    
+Students.WaitCost                           .00000     .00000     .00000     .00000       1567    
+Students.TranCost                           .00000     .00000     .00000     .00000       1567    
+Students.OtherCost                          .00000     .00000     .00000     .00000       1567    
+Students.TotalCost                          .00000     .00000     .00000     .00000       1567    
+Floor 2 Waiting Line.Queue.WaitingTime          --         --         --         --          0
+Floor 2 Waiting Line.Queue.WaitingCost          --         --         --         --          0
+Floor 8 Waiting Line.Queue.WaitingTime          --         --         --         --          0
+Floor 8 Waiting Line.Queue.WaitingCost          --         --         --         --          0
+Floor 4 Waiting Line Up.Queue.WaitingTime   .00413     (Insuf)    .00000     .00863         12    
+Floor 4 Waiting Line Up.Queue.WaitingCost   .00000     (Insuf)    .00000     .00000         12    
+Floor 5 Waiting Line Up.Queue.WaitingTime       --         --         --         --          0
+Floor 5 Waiting Line Up.Queue.WaitingCost       --         --         --         --          0
+Elevator Cabin.Queue.WaitingTime            .00298     8.3656E-05 .00176     .00556        612    
+Elevator Cabin.Queue.WaitingCost            .00000     .00000     .00000     .00000        612    
+Floor 3 Waiting Line Up.Queue.WaitingTime   .00372     (Insuf)    .00000     .01036         25    
+Floor 3 Waiting Line Up.Queue.WaitingCost   .00000     (Insuf)    .00000     .00000         25    
+Floor 1 Waiting Line.Queue.WaitingTime      .00365     3.1683E-04 .00000     .01222        492    
+Floor 1 Waiting Line.Queue.WaitingCost      .00000     .00000     .00000     .00000        492    
+Floor 7 Waiting Line.Queue.WaitingTime          --         --         --         --          0
+Floor 7 Waiting Line.Queue.WaitingCost          --         --         --         --          0
+Floor 6 Waiting Line Down.Queue.WaitingTim  .00440     (Insuf)    .00000     .01000         46    
+Floor 6 Waiting Line Down.Queue.WaitingCos  .00000     (Insuf)    .00000     .00000         46    
+Floor 5 Waiting Line Down.Queue.WaitingTim      --         --         --         --          0
+Floor 5 Waiting Line Down.Queue.WaitingCos      --         --         --         --          0
+Floor 4 Waiting Line Down.Queue.WaitingTim  .00334     (Insuf)    .00000     .00888         22    
+Floor 4 Waiting Line Down.Queue.WaitingCos  .00000     (Insuf)    .00000     .00000         22    
+Floor 3 Waiting Line Down.Queue.WaitingTim  .00170     (Insuf)    .00000     .00504          7    
+Floor 3 Waiting Line Down.Queue.WaitingCos  .00000     (Insuf)    .00000     .00000          7    
+Check empty.Queue.WaitingTime               .00502     (Insuf)    8.2507E-05 .02916        152    
+Check empty.Queue.WaitingCost               .00000     (Insuf)    .00000     .00000        152    
+Floor 6 Waiting Line Up.Queue.WaitingTime   .00430     (Insuf)    .00181     .01000          8    
+Floor 6 Waiting Line Up.Queue.WaitingCost   .00000     (Insuf)    .00000     .00000          8    
+Go go go.Queue.WaitingTime                  .00000     .00000     .00000     .00000        380    
+Go go go.Queue.WaitingCost                  .00000     .00000     .00000     .00000        380    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Elevator Cabins.WIP                         1.0000     (Insuf)    .00000     1.0000     1.0000    
+Students.WIP                                1.4648     (Insuf)    .00000     10.000     .00000    
+Floor 2 Waiting Line.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
+Floor 8 Waiting Line.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
+Floor 4 Waiting Line Up.Queue.NumberInQueu  .01779     (Insuf)    .00000     1.0000     .00000    
+Floor 5 Waiting Line Up.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Elevator Cabin.Queue.NumberInQueue          .65442     (Insuf)    .00000     9.0000     .00000    
+Floor 3 Waiting Line Up.Queue.NumberInQueu  .03337     (Insuf)    .00000     1.0000     .00000    
+Floor 1 Waiting Line.Queue.NumberInQueue    .64377     (Insuf)    .00000     8.0000     .00000    
+Floor 7 Waiting Line.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
+Floor 6 Waiting Line Down.Queue.NumberInQu  .07255     (Insuf)    .00000     2.0000     .00000    
+Floor 5 Waiting Line Down.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Floor 4 Waiting Line Down.Queue.NumberInQu  .02635     (Insuf)    .00000     2.0000     .00000    
+Floor 3 Waiting Line Down.Queue.NumberInQu  .00428     (Insuf)    .00000     1.0000     .00000    
+Check empty.Queue.NumberInQueue             .27384     (Insuf)    .00000     1.0000     .00000    
+Floor 6 Waiting Line Up.Queue.NumberInQueu  .01234     (Insuf)    .00000     2.0000     .00000    
+Go go go.Queue.NumberInQueue                .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Elevator Cabins.NumberIn                    1.0000    
+Elevator Cabins.NumberOut                   .00000    
+Students.NumberIn                           1567.0    
+Students.NumberOut                          1567.0    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            1567.0    
+
+
+Simulation run time: 0.68 minutes.
 Simulation run complete.
