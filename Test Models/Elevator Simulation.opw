@@ -1,4 +1,5 @@
 [RESOURCES]
+Elev
 [VARIABLES]
 Dispose 6.NumberOut
 Bursting Rate.NumberOut
@@ -10,6 +11,7 @@ Process 2.NumberOut
 Maximum Students
 Process 2.NumberIn
 Process 3.NumberIn
+Utils
 Destination Min
 Destination Max
 Button Pressed
@@ -17,7 +19,6 @@ Normal Condition.NumberOut True
 Normal Condition.NumberOut False
 Check empty again.NumberOut False
 Dispose 9.NumberOut
-i
 Remove Cabin.NumberRemoved
 Current Floor?.NumberOut True
 Current Floor
@@ -71,3 +72,4 @@ Check Empty Floor 6 Down.NumberOut False
 Check Empty Floor 5 Down.NumberOut False
 Check Empty Floor 4 Down.NumberOut False
 Check Empty Floor 3 Down.NumberOut False
+Time
