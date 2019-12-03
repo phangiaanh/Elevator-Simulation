@@ -21,6 +21,7 @@ Check empty again.NumberOut False
 Dispose 9.NumberOut
 Remove Cabin.NumberRemoved
 Current Floor?.NumberOut True
+Transition Time
 Current Floor
 Cabin.NumberOut
 Check empty again.NumberOut True
